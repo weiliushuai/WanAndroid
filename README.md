@@ -16,12 +16,12 @@
 
 用到的技术：
 
-1.广告页的无限轮播Banner
+1.广告页的无限轮播[Banner](https://github.com/youth5201314/banner)
 
-2.Refrofit网络请求框架
+2.[Refrofit](http://square.github.io/retrofit/)网络请求框架
 
 3.Glide图片加载
 
-4.沉浸式状态栏ImmersionBar
+4.沉浸式状态栏[ImmersionBar](https://github.com/gyf-dev/ImmersionBar)
 
-5.adapter的通用适配器 BaseRecyclerViewAdapterHelper
+5.RecyclerView的通用适配器 [BaseRecyclerViewAdapterHelper](https://github.com/CymChad/BaseRecyclerViewAdapterHelper)
