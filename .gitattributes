@@ -4,3 +4,5 @@
 *.html linguist-language=Kotlin
 *.css linguist-language=Kotlin
 *.kt linguist-language=Kotlin
+*.java linguist-language=Kotlin
+*.xml linguist-language=Kotlin
