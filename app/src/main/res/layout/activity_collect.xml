@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <View
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/color_2395FF"/>
+    <com.example.administrator.wanandroid.utils.TitleBar
+        android:id="@+id/mTitlabar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_44dp"
+        android:background="@color/color_2395FF"
+        app:show_left="true"
+        app:show_right="false"
+        app:show_title="true"/>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/mRecyclerView"
+        android:layout_marginTop="@dimen/margin_10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

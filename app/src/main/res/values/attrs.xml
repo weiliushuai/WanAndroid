@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TitleBar">
+        <attr name="show_left" format="boolean"/>
+        <attr name="show_right" format="boolean"/>
+        <attr name="show_title" format="boolean"/>
+        <attr name="leftText" format="string|reference"/>
+        <attr name="rightText" format="string|reference"/>
+        <attr name="titleText" format="string|reference"/>
+        <attr name="title_back" format="color|reference"/>
+
+    </declare-styleable>
+</resources>

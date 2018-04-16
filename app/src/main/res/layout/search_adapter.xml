@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/text_keyboard"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_text"
+    android:paddingRight="@dimen/padding_15dp"
+    android:paddingLeft="@dimen/padding_15dp"
+    android:paddingTop="@dimen/padding_5dp"
+    android:paddingBottom="@dimen/padding_5dp"
+    android:textColor="@color/color_666666"
+    android:textSize="@dimen/textSize_14sp"
+    android:layout_marginRight="@dimen/margin_10dp"
+    android:layout_marginBottom="@dimen/margin_10dp"/>

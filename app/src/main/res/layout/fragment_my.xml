@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/user_line"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_200dp"
+        android:background="@mipmap/bg_user"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+        <com.example.administrator.wanandroid.utils.CircleImageView
+            android:layout_width="@dimen/height_80dp"
+            android:layout_height="@dimen/height_80dp"
+            android:layout_marginTop="@dimen/margin_30dp"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/ic_photo"/>
+        <TextView
+            android:id="@+id/user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_10dp"
+            android:textColor="@color/color_222222"
+            android:textSize="@dimen/textSize_14sp"
+            android:textStyle="bold"
+            android:text="username"/>
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/my_collection"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_44dp"
+        android:layout_marginLeft="@dimen/margin_20dp"
+        android:layout_marginRight="@dimen/margin_20dp"
+        android:layout_marginTop="@dimen/margin_20dp"
+        android:gravity="center"
+        android:background="@drawable/my_text"
+        android:textColor="@color/color_2395FF"
+        android:textSize="@dimen/textSize_14sp"
+        android:text="@string/my_collect"/>
+    <TextView
+        android:id="@+id/about_us"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_44dp"
+        android:layout_marginLeft="@dimen/margin_20dp"
+        android:layout_marginRight="@dimen/margin_20dp"
+        android:layout_marginTop="@dimen/margin_20dp"
+        android:gravity="center"
+        android:background="@drawable/my_text"
+        android:textColor="@color/color_2395FF"
+        android:textSize="@dimen/textSize_14sp"
+        android:text="@string/about_us"/>
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_44dp"
+        android:layout_marginLeft="@dimen/margin_20dp"
+        android:layout_marginRight="@dimen/margin_20dp"
+        android:layout_marginTop="@dimen/margin_20dp"
+        android:gravity="center"
+        android:background="@drawable/my_text"
+        android:textColor="@color/color_2395FF"
+        android:textSize="@dimen/textSize_14sp"
+        android:text="@string/login_now"/>
+
+
+</LinearLayout>

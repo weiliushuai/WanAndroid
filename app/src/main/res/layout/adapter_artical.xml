@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/height_100dp"
+    android:layout_marginBottom="@dimen/margin_10dp"
+    android:layout_marginLeft="@dimen/margin_10dp"
+    android:layout_marginRight="@dimen/margin_10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardBackgroundColor="@color/color_white"
+        app:cardCornerRadius="@dimen/corner_10dp">
+        <RelativeLayout
+            android:id="@+id/relative_at"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <com.example.administrator.wanandroid.utils.CircleImageView
+                android:id="@+id/auther_icon"
+                android:layout_width="@dimen/margin_20dp"
+                android:layout_height="@dimen/margin_20dp"
+                android:src="@mipmap/ic_photo"
+                android:layout_marginLeft="@dimen/margin_10dp"
+                android:layout_marginTop="@dimen/margin_5dp"/>
+            <TextView
+                android:id="@+id/auther"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/auther_icon"
+                android:textColor="@color/color_2395FF"
+                android:textSize="@dimen/textSize_12sp"
+                android:layout_marginLeft="@dimen/margin_10dp"
+                android:layout_marginTop="@dimen/margin_5dp"/>
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/color_2395FF"
+                android:textSize="@dimen/textSize_12sp"
+                android:layout_marginRight="@dimen/margin_10dp"
+                android:layout_alignBottom="@id/auther"/>
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/auther_icon"
+                android:layout_toLeftOf="@id/time"
+                android:textColor="@color/color_666666"
+                android:textSize="@dimen/textSize_14sp"
+                android:layout_centerVertical="true"
+                android:layout_centerInParent="true"
+                android:maxLines="2"
+                android:ellipsize="end"/>
+            <TextView
+                android:id="@+id/type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:textColor="@color/color_2395FF"
+                android:textSize="@dimen/textSize_12sp"
+                android:layout_alignLeft="@id/auther_icon"
+                android:layout_marginBottom="@dimen/margin_10dp"/>
+            <com.example.administrator.wanandroid.utils.IconFontTextView
+                android:id="@+id/collect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/margin_10dp"
+                android:layout_marginBottom="@dimen/margin_10dp"
+                android:textColor="@color/color_969696"
+                android:textSize="@dimen/textSize_20sp"
+                android:text="@string/collect_nor"/>
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

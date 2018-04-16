@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_f8f8f8"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/color_2395FF"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_44dp"
+        android:background="@color/color_2395FF"
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical">
+            <EditText
+                android:id="@+id/mSearchView"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:paddingLeft="@dimen/padding_10dp"
+                android:background="@drawable/shape_search"
+                android:hint="@string/search_hint"
+                android:textSize="@dimen/textSize_12sp"
+                android:layout_marginLeft="@dimen/margin_30dp"/>
+            <ImageView
+                android:id="@+id/edit_clear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:src="@mipmap/search_clear_normal"
+                android:layout_centerVertical="true"
+                android:paddingRight="@dimen/padding_10dp"
+                android:visibility="gone"/>
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/mText_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/textSize_14sp"
+            android:paddingLeft="@dimen/padding_20dp"
+            android:paddingRight="@dimen/padding_20dp"
+            android:textColor="@color/color_white"
+            android:text="@string/cancel"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/text_hot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/textSize_14sp"
+        android:layout_marginLeft="@dimen/margin_10dp"
+        android:layout_marginTop="@dimen/margin_15dp"
+        android:textColor="@color/color_000000"
+        android:textStyle="bold"
+        android:text="@string/keyword"/>
+    <com.example.administrator.wanandroid.utils.FlayoutGroup
+        android:id="@+id/mFlayout_Group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_10dp"
+        android:layout_marginLeft="@dimen/margin_20dp"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/mRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/margin_30dp"
+        android:visibility="gone"/>
+
+
+</LinearLayout>

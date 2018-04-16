@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/color_2395FF"/>
+    <com.example.administrator.wanandroid.utils.TitleBar
+        android:id="@+id/titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_44dp"
+        android:background="@color/color_2395FF"
+        app:show_left="true"
+        app:show_right="false"
+        app:show_title="true"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ProgressBar
+            android:id="@+id/progressbar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_0.5dp"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:progressDrawable="@drawable/progressbar_shape"
+            android:visibility="gone"/>
+    <WebView
+        android:id="@+id/mWebView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    </LinearLayout>
+</LinearLayout>
