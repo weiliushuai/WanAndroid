@@ -3,3 +3,4 @@
 *.js linguist-language=Kotlin
 *.html linguist-language=Kotlin
 *.css linguist-language=Kotlin
+*.kt linguist-language=Kotlin
