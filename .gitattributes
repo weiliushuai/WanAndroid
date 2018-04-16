@@ -1,2 +1,5 @@
 *.h linguist-language=Kotlin
 *.m linguist-language=Kotlin
+*.js linguist-language=Kotlin
+*.html linguist-language=Kotlin
+*.css linguist-language=Kotlin
